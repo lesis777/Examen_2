@@ -1,58 +1,43 @@
-# NFL Data Examination
+# Aplicación de Lista de Pendientes de la NFL en React Native
 
-## Overview
+Esta aplicación de React Native está diseñada para resolver el problema de la pizarra de pendientes de la Liga Nacional de Fútbol Americano (NFL, por sus siglas en inglés). La aplicación permite el control de una lista de pendientes (ToDo) y obtiene la información necesaria de la siguiente URL: [http://jsonplaceholder.typicode.com/todos](http://jsonplaceholder.typicode.com/todos).
 
-This repository contains an examination of NFL (National Football League) data, aimed at analyzing various aspects of the league's statistics and trends. The examination encompasses a wide range of data points, including player performance, team statistics, game outcomes, and more. The goal of this examination is to provide insights into the dynamics of the NFL, aiding enthusiasts, analysts, and researchers in understanding the intricacies of the sport.
+## Funcionalidades Requeridas por la NFL
 
-## Contents
+La NFL requiere que la aplicación realice las siguientes funcionalidades:
 
-- **Data**: This directory contains the raw data files used in the examination. The data is organized into subdirectories based on different categories such as players, teams, games, etc.
+1. **Lista de todos los pendientes (solo IDs)**
+2. **Lista de todos los pendientes (IDs y Títulos)**
+3. **Lista de todos los pendientes sin resolver (ID y Título)**
+4. **Lista de todos los pendientes resueltos (ID y Título)**
+5. **Lista de todos los pendientes (IDs y ID de usuario)**
+6. **Lista de todos los pendientes resueltos (ID y ID de usuario)**
+7. **Lista de todos los pendientes sin resolver (ID y ID de usuario)**
 
-- **Notebooks**: This directory contains Jupyter notebooks used for data analysis and visualization. Each notebook focuses on a specific aspect of the examination, providing detailed insights and visualizations.
+## Instrucciones de Uso
 
-- **Scripts**: This directory contains any additional scripts used in data preprocessing, cleaning, or analysis.
-
-## Usage
-
-To explore the examination:
-
-1. Clone this repository to your local machine:
-
-    ```
-    git clone https://github.com/your-username/nfl-data-examination.git
-    ```
-
-2. Navigate to the cloned repository:
+1. Clona este repositorio en tu máquina local:
 
     ```
-    cd nfl-data-examination
+    git clone https://github.com/your-username/nfl-todo-app.git
     ```
 
-3. Explore the data and notebooks according to your interests. You can run the Jupyter notebooks locally to interactively analyze the data and visualize the findings.
+2. Abre la carpeta del proyecto en tu editor de código preferido.
 
-## Dependencies
+3. Ejecuta `npm install` para instalar las dependencias necesarias.
 
-The examination relies on several Python libraries for data analysis, including:
+4. Ejecuta la aplicación en tu emulador o dispositivo utilizando el comando `npx react-native run-android` o `npx react-native run-ios`, dependiendo de tu plataforma.
 
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+5. La aplicación mostrará las listas de pendientes requeridas por la NFL en las diferentes pantallas o vistas de la aplicación.
 
-Ensure you have these libraries installed to run the notebooks successfully. You can install them using pip:
+## Consideraciones
 
-```
-pip install pandas numpy matplotlib seaborn
-```
+Asegúrate de tener una conexión a Internet activa para que la aplicación pueda obtener la lista de pendientes de la URL proporcionada por la NFL.
 
-## Contributing
+## Contribuciones
 
-Contributions to this examination are welcome! If you find any issues, have suggestions, or want to add new analyses, feel free to open an issue or submit a pull request. Please adhere to the contribution guidelines outlined in the repository.
+¡Contribuciones a esta aplicación son bienvenidas! Si encuentras algún problema, tienes sugerencias o deseas agregar nuevas funcionalidades, no dudes en abrir un problema o enviar una solicitud de extracción. Por favor, sigue las pautas de contribución especificadas en el repositorio.
 
-## License
+## Licencia
 
-This project is licensed under the MIT License. You are free to use, modify, and distribute the code and data as long as you include the appropriate attribution and adhere to the terms of the license.
-
-## Acknowledgments
-
-Special thanks to the NFL for providing the data used in this examination. Without their contribution, this analysis would not have been possible. Additionally, thanks to the open-source community for creating and maintaining the tools and libraries used in this project.
+Este proyecto está licenciado bajo la Licencia LESIS. Eres libre de utilizar, modificar y distribuir el código y los datos siempre y cuando incluyas la atribución adecuada y te adhieras a los términos de la licencia.
